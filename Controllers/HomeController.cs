@@ -14,7 +14,7 @@ public class HomeController : Controller
     }
     public IActionResult Index(int pageNum)
     {
-        int pageSize = 3;
+        int pageSize = 2;
         
         var data = new ProjectsListViewModel
         {
