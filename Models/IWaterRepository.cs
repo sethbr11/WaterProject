@@ -1,4 +1,4 @@
-namespace AmazonProject.Models;
+namespace WaterProject.Models;
 
 public interface IWaterRepository
 {

@@ -1,4 +1,4 @@
-namespace AmazonProject.Models.ViewModels;
+namespace WaterProject.Models.ViewModels;
 
 public class ProjectsListViewModel
 {

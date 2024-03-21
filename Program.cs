@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using AmazonProject.Models;
+using WaterProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

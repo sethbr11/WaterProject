@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sethbrock/Desktop/IS 413/FinalMissions/Amazon/WaterProject.csproj": {}
+    "/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/WaterProject.csproj": {}
   },
   "projects": {
-    "/Users/sethbrock/Desktop/IS 413/FinalMissions/Amazon/WaterProject.csproj": {
+    "/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/WaterProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sethbrock/Desktop/IS 413/FinalMissions/Amazon/WaterProject.csproj",
+        "projectUniqueName": "/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/WaterProject.csproj",
         "projectName": "WaterProject",
-        "projectPath": "/Users/sethbrock/Desktop/IS 413/FinalMissions/Amazon/WaterProject.csproj",
+        "projectPath": "/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/WaterProject.csproj",
         "packagesPath": "/Users/sethbrock/.nuget/packages/",
-        "outputPath": "/Users/sethbrock/Desktop/IS 413/FinalMissions/Amazon/obj/",
+        "outputPath": "/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sethbrock/.nuget/NuGet/NuGet.Config"

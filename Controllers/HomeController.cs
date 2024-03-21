@@ -1,8 +1,8 @@
-using AmazonProject.Models;
-using AmazonProject.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using WaterProject.Models;
+using WaterProject.Models.ViewModels;
 
-namespace AmazonProject.Controllers;
+namespace WaterProject.Controllers;
 
 public class HomeController : Controller
 {
