@@ -1,11 +1,11 @@
+using AmazonProject.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using WaterProject.Models.ViewModels;
 
-namespace WaterProject.Infrastructure;
+namespace AmazonProject.Infrastructure;
 
 [HtmlTargetElement("div", Attributes = "page-model")]
 public class PaginationTagHelper : TagHelper

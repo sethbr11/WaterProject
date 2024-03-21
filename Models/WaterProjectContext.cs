@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace WaterProject.Models
+namespace AmazonProject.Models
 {
     public class WaterProjectContext : DbContext
     {

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace WaterProject.Models;
+namespace AmazonProject.Models;
 
 public class Project
 {

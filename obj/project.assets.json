@@ -2579,11 +2579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/WaterProject.csproj",
-      "projectName": "WaterProject",
-      "projectPath": "/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/WaterProject.csproj",
+      "projectUniqueName": "/Users/sethbrock/Desktop/IS 413/FinalMissions/AmazonProject/AmazonProject.csproj",
+      "projectName": "AmazonProject",
+      "projectPath": "/Users/sethbrock/Desktop/IS 413/FinalMissions/AmazonProject/AmazonProject.csproj",
       "packagesPath": "/Users/sethbrock/.nuget/packages/",
-      "outputPath": "/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/obj/",
+      "outputPath": "/Users/sethbrock/Desktop/IS 413/FinalMissions/AmazonProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sethbrock/.nuget/NuGet/NuGet.Config"
