@@ -6,7 +6,6 @@
     <title>@ViewData["Title"] - WaterProject</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/WaterProject.styles.css" asp-append-version="true" />
 </head>
 <body>
 
@@ -14,13 +13,14 @@
     <span class="navbar-brand m-lg-2">THE WATER PROJECT</span>
 </div>
 <div class="row m-1 p-1">
-    <div class="col-3">Add filtering here later</div>
-</div>
-
-<div class="container col-9">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
+    <div class="col-3">
+        <vc:project-types />
+    </div>
+    <div class="container col-9">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
 </div>
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -12,13 +12,14 @@ public class HomeController : Controller
     {
         _waterRepository = temp;
     }
-    public IActionResult Index(int pageNum)
+    public IActionResult Index(int pageNum, string projectType)
     {
-        int pageSize = 2;
+        int pageSize = 5;
         
         var data = new ProjectsListViewModel
         {
             Projects = _waterRepository.Projects
+                .Where(x => x.ProjectType == projectType || projectType == null )
                 .OrderBy(x => x.ProjectName)
                 .Skip((pageNum - 1) * pageSize)
                 .Take(pageSize),
@@ -26,8 +27,11 @@ public class HomeController : Controller
             {
                 CurrentPage = pageNum,
                 ItemsPerPage = pageSize,
-                TotalItems = _waterRepository.Projects.Count()
-            }
+                TotalItems = projectType == null ? 
+                                _waterRepository.Projects.Count() :
+                                _waterRepository.Projects.Where(x => x.ProjectType == projectType).Count()
+            },
+            CurrentProjectType = projectType
         };
         
         return View(data);
