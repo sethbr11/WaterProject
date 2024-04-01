@@ -254,3 +254,4 @@
 //Mac/Home/Desktop/IS 413/mission11/WaterProject/obj/Debug/net8.0/WaterProject.pdb
 //Mac/Home/Desktop/IS 413/mission11/WaterProject/obj/Debug/net8.0/WaterProject.genruntimeconfig.cache
 //Mac/Home/Desktop/IS 413/mission11/WaterProject/obj/Debug/net8.0/ref/WaterProject.dll
+/Users/sethbrock/Desktop/IS 413/mission11/WaterProject/bin/Debug/net8.0/WaterProjectDB.sqlite
