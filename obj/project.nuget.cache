@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "LJJWVnpXVng/Z5HppTGbm/YZ4N4pKQoYMiSCVivVpMzAb/I2I+sQNuXdon7GLzhJmLBxzgfcDrTDq9KezGOGAQ==",
+=======
+  "dgSpecHash": "QNVYJnp09wSg2e179dMvkdBr/NKbJN4adHR9uG6euQp4OJ1wENUj7VbtgA6fKEBbIFYPzsJzsDCq34jGlcqP7g==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "\\\\Mac\\Home\\Documents\\GitHub\\WaterProject\\WaterProject.csproj",
   "expectedPackageFiles": [
