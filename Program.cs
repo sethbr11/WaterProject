@@ -16,8 +16,11 @@ builder.Services.AddScoped<IWaterRepository, EFWaterRepository>();
 
 builder.Services.AddRazorPages();
 
-builder.Services.AddDistributedMemoryCache();
+builder.Services.AddDistributedMemoryCache(); // stores cached data in memory across the application instances
 builder.Services.AddSession();
+
+builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); // required to access the current session in the SessionCart class
 
 var app = builder.Build();
 
